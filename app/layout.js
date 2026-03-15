@@ -1,14 +1,8 @@
 import './globals.css';
-
 export const metadata = {
-  title: 'EPF Policy Lever Scorecard',
-  description: 'Interactive simulation of EPF retirement savings trajectories under Malaysia\'s RIA Framework (2026)',
+  title: 'EPF Policy Lever Scorecard v2',
+  description: 'Interactive EPF retirement simulation — Policy Levers, Cohort Analysis, Scarring Calculator & Monte Carlo',
 };
-
 export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  );
+  return <html lang="en"><body>{children}</body></html>;
 }
